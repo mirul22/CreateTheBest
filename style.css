@@ -91,15 +91,17 @@ section.first-section h2 {
 
 section.second-section {
     background: #000;
+    height: 65px;
 }
 
 section.second-section form {
     text-align: center;
+    padding-top: 15px;
 }
 
 section.second-section form input {
     padding: 5px 10px;
-    margin 2% 0;
+    margin 2% 0%;
     font-size: 90%;
 }
 
@@ -143,6 +145,42 @@ footer p {
 /* End Footer */
 
 
+/* Start About Us */
+section.aboutus {
+    padding: 3% 0;
+}
+
+section.aboutus h2 {
+    text-align: center;
+    margin-bottom: 3%;
+    color: #555;
+}
+
+section.aboutus div {
+    width: 33.3333%;
+    float: left;
+}
+
+section.aboutus div img{
+    width: 50%;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+section.aboutus div p {
+    width: 60%;
+    margin: auto;
+    text-indent: 15px;
+    text-align: justify;
+    font-style: italic;
+    color: #333;
+}
+
+section.aboutus p::first-letter {
+    font-size: 200%;
+}
+/* End About Us */
 
 
 
