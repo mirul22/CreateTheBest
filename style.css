@@ -70,8 +70,56 @@ header nav ul li a.active {
 
 /* End Header */
 
+section.first-section {
+    position: relative;
+    min-height: 600px;
+    background: url(images/bg.jpg) no-repeat 30% 10%;
+    background-size: cover;
+}
 
+section.first-section h2 {
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    text-align: center;
+    color: #ff7f50;
+    font-size: 300%;
+}
 
+/* End first section */
+
+section.second-section {
+    background: #000;
+}
+
+section.second-section form {
+    text-align: center;
+}
+
+section.second-section form input {
+    padding: 5px 10px;
+    margin 2% 0;
+    font-size: 90%;
+}
+
+section.second-section form input[type="email"] {
+    background: #ccc;
+}
+
+section.second-section form input[type="email"]:focus {
+    background: #eee;
+}
+
+section.second-section form input[type="submit"] {
+    background: #ff7f50;
+    color: #333;
+}
+
+section.second-section form input[type="submit"]:hover {
+    background: #dd4d20;
+}
+/* End second section */
 
 
 
