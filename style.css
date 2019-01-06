@@ -121,10 +121,26 @@ section.second-section form input[type="submit"]:hover {
 }
 /* End second section */
 
+section.third-section img {
+    width: 50%;
+    float: left;
+    padding: 5% 0;
+    background: #ccc;
+}
+/* End third section */
 
+footer {
+    background: #000;
+}
 
-
-
+footer p {
+    text-align: center;
+    padding: 2% 0;
+    font-style: italic;
+    font-size: 140%;
+    color: #ccc;
+}
+/* End Footer */
 
 
 
